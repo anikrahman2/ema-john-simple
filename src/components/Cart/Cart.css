@@ -10,3 +10,16 @@
 .cart h1, h6{
   font-size: 21px;
 }
+.btn-clear-cart{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 4px;
+  background-color: #FF3030;
+  color: white;
+  font-family: 'Lato';
+  font-size: 21px;
+  height: 56px;
+  align-items: center;
+}

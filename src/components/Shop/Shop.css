@@ -9,3 +9,16 @@
   gap: 45px;
 
 }
+.btn-proceed{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 4px;
+  background-color: #FF9900;
+  color: white;
+  font-family: 'Lato';
+  font-size: 21px;
+  height: 56px;
+  align-items: center;
+}
