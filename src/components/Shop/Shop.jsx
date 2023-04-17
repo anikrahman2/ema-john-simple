@@ -1,5 +1,5 @@
 import './Shop.css';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
 import { addToDb, deleteShoppingCart, getShoppingCart } from '../../utilities/fakedb';
@@ -56,10 +56,10 @@ const Shop = () => {
     setCart([])
     deleteShoppingCart()
   }
-
   return (
     <div className='shop-container'>
       <div>
+        <h2></h2>
         <h1>Products Coming Here: {products.length}</h1>
         <div className='products-container'>
           {

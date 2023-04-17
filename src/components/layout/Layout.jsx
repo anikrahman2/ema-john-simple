@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import { Outlet } from 'react-router-dom';
 
-const Home = () => {
+const Layout = () => {
   return (
     <div>
       <Header />
@@ -11,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Layout;
